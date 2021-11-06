@@ -43,14 +43,14 @@ class _MyHomePageState extends State<MyHomePage> {
 
       body: ListView(
         children: [
-          const Text('Hola Guapa',textAlign: TextAlign.center,style: TextStyle(fontSize: 28,
+          const Text('Holaaaaa',textAlign: TextAlign.center,style: TextStyle(fontSize: 28,
               backgroundColor: Colors.green, fontWeight: FontWeight.bold,
               color: Colors.white)),
           Container(
             color: Colors.amber,
             padding: EdgeInsets.all(20.0),
             width: 250,
-            child: const Text('Que se llama Aniee',textAlign: TextAlign.center,style: TextStyle(fontSize: 28,
+            child: const Text('Que se dice',textAlign: TextAlign.center,style: TextStyle(fontSize: 28,
                 backgroundColor: Colors.green, fontWeight: FontWeight.bold,
                 color: Colors.white)),
           ),
