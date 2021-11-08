@@ -80,7 +80,7 @@ class _MyHomePageState extends State<MyHomePage> {
               onPressed: (){
                 var saludo='Hola Sara Juliana';
                 print(saludo);
-                Navigator.push(context, MaterialPageRoute(builder: (context)=>pantalla_2()));
+                Navigator.push(context, MaterialPageRoute(builder: (context)=>const pantalla_2()));
               },
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
